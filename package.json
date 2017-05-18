@@ -1,0 +1,26 @@
+{
+  "name": "algorithm-in-js",
+  "version": "0.0.1",
+  "description": "common algorithm implemented by js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter text --reporter html mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeluoqiuzhi/algorithm-in-js.git"
+  },
+  "author": "yeluoqiuzhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeluoqiuzhi/algorithm-in-js/issues"
+  },
+  "homepage": "https://github.com/yeluoqiuzhi/algorithm-in-js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.4.1",
+    "nyc": "^10.3.2"
+  }
+}
